@@ -1015,21 +1015,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libril \
-    libtime_genoff \
-    TimeService \
-    CNEService \
-    qcrilmsgtunnel \
-    ims \
-    colorservice \
-    imssettings \
-    imscmlibrary \
-    qcnvitems \
-    qcrilhook \
-    CarrierServices \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMService \
-    SprintDM \
-    DMConfigUpdateLight \
-    atfwd
+    libtime_genoff
