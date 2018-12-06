@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/athene/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/motorola/athene/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/motorola/athene/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/motorola/athene/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
