@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/athene/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/athene/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
-    vendor/motorola/athene/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/motorola/athene/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/motorola/athene/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/motorola/athene/proprietary/bin/tcmd:system/bin/tcmd \
     vendor/motorola/athene/proprietary/bin/tcmdhelp:system/bin/tcmdhelp \
