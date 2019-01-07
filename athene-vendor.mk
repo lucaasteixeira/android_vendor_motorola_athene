@@ -814,6 +814,52 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/motorola/athene/proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qteeconnector@1.0_vendor.so
 
+# WifiDisplay
+PRODUCT_COPY_FILES += \
+    vendor/motorola/athene/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/motorola/athene/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/motorola/athene/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/motorola/athene/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/motorola/athene/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/motorola/athene/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/motorola/athene/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/motorola/athene/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/motorola/athene/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/motorola/athene/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/motorola/athene/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/motorola/athene/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/motorola/athene/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/motorola/athene/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/motorola/athene/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/motorola/athene/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/motorola/athene/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/motorola/athene/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/motorola/athene/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/motorola/athene/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/motorola/athene/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/motorola/athene/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/motorola/athene/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/motorola/athene/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/motorola/athene/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/motorola/athene/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/motorola/athene/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/motorola/athene/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+    vendor/motorola/athene/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/motorola/athene/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/motorola/athene/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/motorola/athene/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/motorola/athene/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/motorola/athene/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
+
+PRODUCT_PACKAGES += \
+    WfdService \
+    WfdCommon
+
 # Packages
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
